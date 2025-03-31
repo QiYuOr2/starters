@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel",
+    "dev": "vite",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "hono": "catalog:framework"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:cli",
+    "@hono/vite-build": "catalog:cli",
+    "@hono/vite-dev-server": "catalog:cli",
+    "eslint": "catalog:cli",
+    "vercel": "catalog:cli",
+    "vite": "catalog:cli"
+  }
+}
