@@ -1,9 +1,9 @@
 # Starters
 
-| dir |                           |
-| --- | ------------------------- |
-| ts  | TypeScript Basic Template |
-
+| dir    |                           |
+| ------ | ------------------------- |
+| ts     | TypeScript Basic Template |
+| server | Vercel Server Template    |
 
 ## Usage
 

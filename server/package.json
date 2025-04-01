@@ -3,8 +3,7 @@
   "type": "module",
   "scripts": {
     "start": "vercel dev",
-    "deploy": "vercel",
-    "dev": "vite",
+    "dev": "esno dev.ts",
     "lint": "eslint"
   },
   "dependencies": {
@@ -12,10 +11,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:cli",
-    "@hono/vite-build": "catalog:cli",
-    "@hono/vite-dev-server": "catalog:cli",
+    "@hono/node-server": "catalog:cli",
     "eslint": "catalog:cli",
-    "vercel": "catalog:cli",
-    "vite": "catalog:cli"
+    "esno": "catalog:cli",
+    "vercel": "catalog:cli"
   }
 }

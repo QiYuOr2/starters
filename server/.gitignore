@@ -3,6 +3,8 @@
 .yarn/
 !.yarn/releases
 .vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 !.vscode/launch.json
 !.vscode/*.code-snippets
 .idea/workspace.xml

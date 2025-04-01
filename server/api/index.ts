@@ -12,5 +12,5 @@ app.get('/', (c) => {
 })
 
 
-
-export default import.meta.env.DEV ? app : handle(app)
+export default handle(app)
+export { app }
